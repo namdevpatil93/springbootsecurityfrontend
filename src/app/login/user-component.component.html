@@ -1,0 +1,11 @@
+
+<form>
+
+
+    Username <input [(ngModel)]="user.username" name="username"> {{username}}
+    Password <input [(ngModel)]="user.password" name="password">
+
+    <input type="button" (click)="login(user)">
+</form>
+
+<router-outlet></router-outlet>
